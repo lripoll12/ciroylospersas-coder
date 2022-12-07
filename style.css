@@ -104,12 +104,9 @@ footer ul li {
 
 
 .flex-index {
-    height: 1000px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .parrafo-index {
@@ -272,6 +269,12 @@ textarea {
         color: orange;
         justify-content: space-between;
         padding: 13px 13px;
+    }
+
+    .flex-index {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
 
