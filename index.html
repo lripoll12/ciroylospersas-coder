@@ -9,27 +9,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../imagenes/logo ciro.jpg" type="image/x-icon"> 
     <script src="https://kit.fontawesome.com/67ae4f75ed.js" crossorigin="anonymous"></script> 
-    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css"/>
     <title>CIRO Y LOS PERSAS</title>
   </head>
   
   <body class="body-todo">
     <header class="nav-bar" >  
-        <h3><a class="ciro-title" href="./index.html">CIRO</a></h3>
-        <nav>
-          <ul class="nav-lista">
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./paginas/galeria.html">FOTOS</a></li>
-            <li><a href="./paginas/eventos.html">EVENTOS</a></li>
-            <li><a href="./paginas/contacto.html">CONTACTO</a></li>
-            <li><a href="./paginas/discografia.html">DISCOS</a></li>
-          </ul>
-          <ul class="nav-icon">
-            <span><a href="./paginas/galeria.html"><i class="fa-solid fa-camera"></i></a></span>
-            <span><a href="./paginas/eventos.html"><i class="fa-regular fa-calendar-days"></i></a></span>
-            <span><a href="./paginas/contacto.html"><i class="fa-solid fa-pen-to-square"></i></a></span>
-            <span><a href="./paginas/discografia.html"><i class="fa-solid fa-music"></i></a></span>
-          </ul>
+        <nav class="navbar navbar-dark navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">CIRO Y LOS PERSAS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"href="./index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/galeria.html">FOTOS</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/eventos.html">EVENTOS</a>  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./paginas/discografia.html">DISCOS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
     </header>
     <main>
@@ -40,7 +52,7 @@
       <section class="flex-index" >
         <div class="box">
           <img src="./imagenes/ciro 2.jpg" alt="imagen principal" height="400" width="100%"/>
-        </div>
+        </div> 
         <div class="box">
           <ul>
             <li class="list-paginas">INTEGRANTES</li>
@@ -77,4 +89,12 @@
       </ul>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" 
+      crossorigin="anonymous">
+    </script>
   </body>
